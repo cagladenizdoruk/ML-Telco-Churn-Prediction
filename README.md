@@ -5,7 +5,7 @@ It is expected to develop a machine learning model that can predict customers wh
 ## Dataset
 Telco churn data includes information about a fictitious telecom company that provided home phone and Internet services to 7,043 California customers in the third quarter. It shows which customers have left, stayed or signed up for their service.
 
-21 Features 7043 Observations 977.5 KB
+21 Features | 7043 Observations | 977.5 KB
 
 | Feature | Definition |
 | --- | --- |
