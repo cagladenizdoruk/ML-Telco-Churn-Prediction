@@ -30,3 +30,14 @@ Telco churn data includes information about a fictitious telecom company that pr
 | MonthlyCharges  | Amount collected from the customer on a monthly basis |
 | TotalCharges | Total amount charged from customer |
 | Churn | Whether the customer churned or not (Yes or No) |
+## Requirements
+
+catboost==1.1.1
+lightgbm==3.2.1
+matplotlib==3.4.3
+numpy==1.20.3
+pandas==1.3.4
+seaborn==0.11.2
+session_info==1.0.0
+sklearn==0.24.2
+xgboost==1.7.3
