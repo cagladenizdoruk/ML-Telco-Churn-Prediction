@@ -5,4 +5,28 @@ It is expected to develop a machine learning model that can predict customers wh
 ## Dataset
 Telco churn data includes information about a fictitious telecom company that provided home phone and Internet services to 7,043 California customers in the third quarter. It shows which customers have left, stayed or signed up for their service.
 
-21 Variables 7043 Observations 977.5 KB
+21 Features 7043 Observations 977.5 KB
+
+| Feature | Definition |
+| --- | --- |
+| CustomerId | Customer Id |
+| Gender | Whether the customer is a male or a female |
+| SeniorCitizen | Whether the customer is a senior citizen or not (1, 0) |
+| Partner | Whether the customer has a partner or not (Yes, No) |
+| Dependents | Whether the customer has dependents or not (Yes, No) |
+| tenure | Number of months the customer has stayed with the company |
+| PhoneService | Whether the customer has telephone service or not (Yes, No) |
+| MultipleLines | Whether the customer has more than one line or not (Yes, No, No phone service) |
+| InternetService | Customer's internet service provider (DSL, Fiber optic, No) |
+| OnlineSecurity | Whether the customer has online security or not (Yes, No, no Internet service) |
+| OnlineBackup | Whether the customer has an online backup or not (Yes, No, no Internet service) |
+| DeviceProtection | Whether the customer has device protection or not (Yes, No, no Internet service) |
+| TechSupport | Whether the customer has technical support or not (Yes, No, no Internet service) |
+| StreamingTV | Whether the customer has a TV broadcast or not (Yes, No, no Internet service) |
+| StreamingMovies | Whether the client has streaming movies or not (Yes, No, no Internet service) |
+| Contract | The contract term of the customer (Month to month, One year, Two years) |
+| PaperlessBilling | Whether the customer has a paperless invoice or not (Yes, No) |
+| PaymentMethod | Customer's payment method (Electronic check, Postal check, Bank transfer (automatic), Credit card (automatic)) |
+| MonthlyCharges  | Amount collected from the customer on a monthly basis |
+| TotalCharges | Total amount charged from customer |
+| Churn | Whether the customer churned or not (Yes or No) |
